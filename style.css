@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-image:url("background.jpg");
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -2 rem;
+}
+.countdown-timer{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height:1;
+    margin: 0 2rem;
+}
+.countdown{
+    text-align: center;
+}
+.countdown span{
+    font-size: 1rem; 
+}
+button{
+    font-size: 2rem;
+    text-align: center;
+    display:flex;
+    background-color: black;
+    color: white;
+    margin-top: 5rem; 
+
+}
+#save{
+    font-size: 1rem;
+    text-align: center;
+    display:flex;
+    background-color: black;
+    color: white;
+}
+.form{
+    visibility: hidden;
+}
+
